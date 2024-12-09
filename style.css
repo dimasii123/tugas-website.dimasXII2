@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f5e1; /* Warna cream */
+    color: #333; /* Warna teks gelap untuk kontras */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #f0e6c9; /* Cream lebih gelap */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #5b5a47; /* Warna gelap untuk judul */
+}
+
+/* Navigasi */
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5b5a47;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #7a7b5b; /* Warna saat hover */
+}
+
+/* Konten utama */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #5b5a47;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #f0e6c9;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #5b5a47;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
